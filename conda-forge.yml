@@ -2,6 +2,7 @@ github:
   branch_name: main
   tooling_branch_name: main
 bot:
+  automerge: true
   inspection: update-grayskull
 conda_forge_output_validation: true
 conda_build:
