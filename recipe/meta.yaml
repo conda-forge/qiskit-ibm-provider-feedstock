@@ -1,5 +1,5 @@
 {% set name = "qiskit-ibm-provider" %}
-{% set version = "0.7.3" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qiskit-ibm-provider-{{ version }}.tar.gz
-  sha256: a6a2e6a1acfd8406756daf027c6208fb2aba3c15b8e1d540dac12b0e2f0b7516
+  sha256: 8ab0884288be7fd0bdddd2d294a9670fcda2ee6c1680bee1b9695d17aa98adc8
 
 build:
   noarch: python
@@ -19,7 +19,7 @@ requirements:
     - python >=3.8
     - pip
   run:
-    - qiskit >=0.44.1
+    - qiskit >=0.45.0
     - python >=3.8
     - requests >=2.19
     - requests_ntlm >=1.1.0
